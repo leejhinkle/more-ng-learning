@@ -1,6 +1,6 @@
-var stevesApp = {}'
+var stevesApp = {};
 
-var stevesApp.name = "steve";
+stevesApp.name = "steve";
 
 stevesApp.logPerson = function ()
 {

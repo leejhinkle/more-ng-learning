@@ -1,4 +1,4 @@
 var name = "Lee J";
 
 
-logPerson();
+stevesApp.logPerson();
