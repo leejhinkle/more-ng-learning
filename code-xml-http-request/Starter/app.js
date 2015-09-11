@@ -4,7 +4,7 @@ myApp.controller('mainController', ['$scope', '$filter', function($scope, $filte
     
     $scope.handle = '';
     
-    $scope.lowercasehandle = function() {
+    $scope.lowercasehandle = function () {
         return $filter('lowercase')($scope.handle);
     };
     
