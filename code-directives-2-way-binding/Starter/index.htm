@@ -17,6 +17,7 @@
         <!-- load angular via CDN -->
         <script src="//code.angularjs.org/1.3.0-rc.1/angular.min.js"></script>
         <script src="app.js"></script>
+        <script src="app2.js"></script>
     </head>
     <body>
 
@@ -35,6 +36,7 @@
 		</header>
 
         <div class="container">
+            
 
             <div ng-controller="mainController">
             
@@ -44,6 +46,10 @@
                 </div>
                 <hr>
                 <h1>twitter.com/{{ lowerhandle() }}</h1> <!--Second area of data binding. Have to  call the FUNCTION lwoerhandle() to get back what you want.-->
+                
+                <!--new text box for JS aside-->
+                <input type="text" id="name" />
+                <!--Doesn't work because it's an ng-app html page-->
                 
             </div>
             
